@@ -1,0 +1,19 @@
+# Build 資料夾
+build/
+build-*/
+
+# Qt Creator 個人設定
+*.pro.user*
+.qtcreator/
+
+# 編譯產物
+*.o
+*.obj
+*.exe
+Makefile*
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+.qmake.stash
+compile_commands.json
